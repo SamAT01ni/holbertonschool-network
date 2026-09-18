@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Whats the point of being alive? Is it purely to suffer?
+
+hostname -I | tr ' ' '\n' | grep -E '^[0-9]+.[0-9]+.[0-9]+.[0-9]+$'
