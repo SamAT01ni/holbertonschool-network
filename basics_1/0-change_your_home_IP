@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # change home ip and make facebook go elsewhere
 
 sudo sed -i 's/127.0.0.1[[:space:]]*localhost/127.0.0.2 localhost/' /etc/hosts
